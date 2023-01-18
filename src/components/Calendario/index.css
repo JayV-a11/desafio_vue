@@ -1,0 +1,42 @@
+.calendar {
+  width: 300px;
+  display: flex;
+  padding-left: 20px;
+  flex-direction: column;
+  font-size: 11px;
+}
+
+.calendar-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.red {
+  color: #c94f7a;
+}
+
+.weekday {
+  width: 14.28%;
+  text-align: center;
+}
+
+.calendar-body {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.day {
+  width: 14.28%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.day.today {
+  background-color: #3e6db8;
+  color: white;
+}

@@ -1,0 +1,19 @@
+.counter {
+  width: 250px;
+  height: 119px;
+  background-color: #ffff;
+  padding: 20px;
+}
+
+.total-inscritos {
+  font-size: 19px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.counter h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 44px;
+}

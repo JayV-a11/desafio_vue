@@ -1,0 +1,116 @@
+.tools {
+  width: 40px;
+  height: 40px;
+  background-image: url(/src/assets/bars-solid.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main {
+  width: 80%;
+}
+
+header.main-header {
+  display: flex;
+  height: 5%;
+  justify-content: space-between;
+  padding: 20px 30px;
+  width: calc(100% - 60px);
+}
+
+header.main-header label {
+  font-size: 38px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.box {
+  width: 250px;
+  height: 160px;
+  background-color: #0c3458;
+}
+
+.dashboard {
+  height: 90%;
+  padding: 0 30px;
+}
+
+.dashboard .top {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard .bottom .left {
+  width: 66.4%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.dashboard .bottom .right {
+  width: 292px;
+  background-color: #ffffff;
+}
+
+.dashboard .bottom .left .bar-chart {
+  width: 100%;
+  height: 250px;
+  padding: 15px 30px;
+  background-color: #ffffff;
+}
+
+label.barchart-text {
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.bar-chart.line {
+  display: flex;
+}
+
+.line-container {
+  width: 75%;
+}
+
+.pie-container,
+.description {
+  padding: 0 35px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.description label {
+  border-bottom: 2px solid #f2f2f2;
+  width: 65%;
+  text-align: center;
+}
+
+.perc-pie-chart {
+  position: absolute;
+  bottom: 443px;
+  right: 99px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+}
