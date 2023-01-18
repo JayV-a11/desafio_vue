@@ -32,27 +32,30 @@ header.main-header label {
 }
 
 .dashboard {
-  height: 90%;
+  height: 85%;
   padding: 0 30px;
 }
 
 .dashboard .top {
   margin-bottom: 30px;
+  height: 20%;
   display: flex;
   justify-content: space-between;
 }
 
 .dashboard .bottom {
   width: 100%;
+  height: 75%;
   display: flex;
   justify-content: space-between;
 }
 
 .dashboard .bottom .left {
   width: 66.4%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  justify-content: space-between;
 }
 
 .dashboard .bottom .right {
@@ -62,7 +65,7 @@ header.main-header label {
 
 .dashboard .bottom .left .bar-chart {
   width: 100%;
-  height: 250px;
+  height: 41%;
   padding: 15px 30px;
   background-color: #ffffff;
 }
@@ -84,6 +87,7 @@ label.barchart-text {
 .pie-container,
 .description {
   padding: 0 35px;
+  position: relative;
 }
 
 .description {
@@ -103,8 +107,6 @@ label.barchart-text {
 
 .perc-pie-chart {
   position: absolute;
-  bottom: 443px;
-  right: 99px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -113,4 +115,7 @@ label.barchart-text {
   justify-content: center;
   align-items: center;
   font-size: 45px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
